@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="utf-8">
+  <title>Ankieta - Grzegorzak</title>
+</head>
+<A HREF="zadanie_grzegorzak.html"> Kliknij aby wrócić do strony głównej </A>
+<body bgcolor="#AEEEEE">
+
+<center><h1>Ankieta</h1></center>
+
+<form enctype="text/plain" action="mailto:janekgrzegorzak@gmail.com" subject="formularz_dane" method="Post">
+
+<table border="0" cellspacing="20" width="100%">
+
+  <tr>
+    <td width="50%">
+      <b>Imię:</b> <input name="imie" size="40"><br><br>
+      <b>Nazwisko:</b> <input name="nazwisko" size="40"><br><br>
+      <b>Data urodzenia:</b> <input type="date" name="data_urodzenia"><br><br>
+      <b>Numer telefonu:</b> <input name="telefon" size="40"><br><br>
+      <b>E-mail:</b> <input type="email" name="email" size="40"><br><br>
+    </td>
+
+    <td width="50%">
+      <b>Do jakiej szkoły teraz chodzisz?</b><br><br>
+      <input type="radio" name="szkola" value="Podstawowa"> Podstawowa<br>
+      <input type="radio" name="szkola" value="Średnia"> Średnia<br>
+      <input type="radio" name="szkola" value="Studia"> Studia<br><br>
+
+      <b>Czy lubisz swoją szkołę?</b><br>
+      <input type="radio" name="lubisz_szkołę" value="Tak"> TAK
+      <input type="radio" name="lubisz_szkołę" value="Nie"> NIE<br><br>
+
+      <b>Wpisz swoje hobby:</b><br>
+      <textarea cols="60" rows="5" name="hobby"></textarea><br><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>Jakie znasz języki?</b><br><br>
+      <input type="checkbox" name="jezyki" value="Angielski"> Angielski<br>
+      <input type="checkbox" name="jezyki" value="Niemiecki"> Niemiecki<br>
+      <input type="checkbox" name="jezyki" value="Hiszpański"> Hiszpański<br>
+      <input type="checkbox" name="jezyki" value="Rosyjski"> Rosyjski<br>
+      <input type="checkbox" name="jezyki" value="Inne"> Inne (wpisz jakie):<br>
+      <input name="inne_jezyki" size="50"><br><br>
+    </td>
+
+    <td>
+      <b>Z jakiego systemu operacyjnego korzystasz?</b><br><br>
+      <input type="checkbox" name="system" value="Windows"> Windows<br>
+      <input type="checkbox" name="system" value="Linux"> Linux<br>
+      <input type="checkbox" name="system" value="Android"> Android<br>
+      <input type="checkbox" name="system" value="iOS"> iOS<br><br>
+
+      <b>Ile średnio dziennie spędzasz godzin przy komputerze?</b><br>
+      <input type="radio" name="czas" value="<1"> mniej niż 1<br>
+      <input type="radio" name="czas" value="2-3"> od 2 do 3<br>
+      <input type="radio" name="czas" value="4-5"> od 4 do 5<br>
+      <input type="radio" name="czas" value=">5"> więcej niż 5<br><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b>W jakie gry komputerowe najczęściej grasz?</b><br><br>
+      <input type="checkbox" name="gry" value="GTA V"> GTA V<br>
+      <input type="checkbox" name="gry" value="EA FC26"> EA FC 26<br>
+      <input type="checkbox" name="gry" value="CSGO"> CS:GO<br>
+      <input type="checkbox" name="gry" value="Inna"> Inna (wpisz jaką):<br>
+      <input name="inna_gra" size="50"><br><br>
+    </td>
+
+    <td>
+      <b>Uwagi lub komentarze:</b><br>
+      <textarea cols="60" rows="6" name="uwagi"></textarea>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <input type="submit" value="Submit" style="height:60px; width:200px">
+    </td>
+    <td align="center">
+      <input type="reset" value="Reset" style="height:60px; width:200px">
+    </td>
+  </tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
+
